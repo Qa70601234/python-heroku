@@ -1,11 +1,11 @@
 {
-  "name": "Alist v2",
-  "description": "Alist on Heroku",
-  "keywords": ["Alist"],
+  "name": "python结合echarts做的可视化平台",
+  "description": "python结合echarts",
+  "keywords": ["py-echarts可视化"],
   "env": {
     "ADATABASE": {
-       "description": "数据库类型（sqlite3 / mysql）",
-       "value": "sqlite3"
+       "description": "数据库类型（mysql）",
+       "value": "mysql"
     },
     "BSQLUSER": {
        "description": "MySQL 用户名（数据库类型为远程 MySQL 时需要更改）",
@@ -40,7 +40,7 @@
       "value": "https://npm.elemecdn.com/alist-web@$version/dist/"
     }
   },
-  "website": "https://github.com/alist-org/alist-heroku",
-  "repository": "https://github.com/alist-org/alist-heroku",
+  "website": "https://github.com/Qa70601234/python-heroku/",
+  "repository": "https://github.com/Qa70601234/python-heroku/",
   "stack": "container"
 }
